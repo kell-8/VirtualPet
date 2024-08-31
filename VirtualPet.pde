@@ -17,7 +17,6 @@ void draw(){
   fill(#FFFADB);
   ellipse(175,200,65,80);
   ellipse(225,200,65,80);
-  
   ellipse(200,250,90,40);
   ellipse(150,225,40,40);
   ellipse(250,225,40,40);
@@ -28,8 +27,6 @@ void draw(){
   fill(#393636);
   ellipse(162,215,10,13);
   ellipse(238,215,10,13);
-  //circle(200,200,10);
-  arc(200,230,40,40,PI/2,PI);
-
+  fill(#393636);
+  arc(200,230,40,40,0,PI);
 }
-
