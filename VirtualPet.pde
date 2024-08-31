@@ -23,10 +23,10 @@ void draw(){
   ellipse(200,230,50,50);
   arc(212,216,109,101,0,PI/2);
   arc(188,216,109,101,PI/2,PI);
-  //eyes+mouth
+  //facial features
   fill(#393636);
   ellipse(162,215,10,13);
   ellipse(238,215,10,13);
-  fill(#393636);
-  arc(200,230,40,40,0,PI);
+  ellipse(200,225,13,10);
+  arc(200,240,30,30,0,PI);
 }
