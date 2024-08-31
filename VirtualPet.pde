@@ -13,15 +13,23 @@ void draw(){
   ellipse(290,190,50,50);
   fill(#C18E5E);
   ellipse(200,200,180,170);
+  //face
   fill(#FFFADB);
   ellipse(175,200,65,80);
   ellipse(225,200,65,80);
+  
   ellipse(200,250,90,40);
   ellipse(150,225,40,40);
   ellipse(250,225,40,40);
   ellipse(200,230,50,50);
-  arc(214,216,109,101,0,PI/2);
-  fill(#FF1717);
-  arc(184,216,109,101,PI/2,PI);
+  arc(212,216,109,101,0,PI/2);
+  arc(188,216,109,101,PI/2,PI);
+  //eyes+mouth
+  fill(#393636);
+  ellipse(162,215,10,13);
+  ellipse(238,215,10,13);
+  //circle(200,200,10);
+  arc(200,230,40,40,PI/2,PI);
+
 }
 
